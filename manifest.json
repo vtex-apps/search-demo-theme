@@ -1,7 +1,7 @@
 {
-  "vendor": "vtex",
+  "vendor": "biggy",
   "name": "store-theme",
-  "version": "3.21.1",
+  "version": "1.0.0",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -45,7 +45,8 @@
     "vtex.order-placed": "1.x",
     "vtex.checkout-summary": "0.x",
     "vtex.product-list": "0.x",
-    "vtex.add-to-cart-button": "0.x"
+    "vtex.add-to-cart-button": "0.x",
+    "vtex.search": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

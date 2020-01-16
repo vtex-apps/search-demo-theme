@@ -91,3 +91,9 @@
     max-height: 600px;
   }
 }
+
+@media screen and (max-width: 428px) {
+  .searchBarContainer {
+    max-width: unset !important;
+  }
+}
