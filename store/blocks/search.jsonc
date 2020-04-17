@@ -77,7 +77,7 @@
     ],
     "props": {
       "pagination": "show-more",
-      "preventRouteChange": true,
+      "preventRouteChange": false,
       "mobileLayout": {
         "mode1": "small",
         "mode2": "normal"
@@ -92,7 +92,7 @@
     ],
     "props": {
       "pagination": "show-more",
-      "preventRouteChange": true,
+      "preventRouteChange": false,
       "mobileLayout": {
         "mode1": "small",
         "mode2": "normal"
@@ -164,7 +164,7 @@
       "blockClass": "orderByCol"
     }
   },
-  
+
   "flex-layout.row#fetchprevious": {
     "props": {
       "marginBottom": 3
