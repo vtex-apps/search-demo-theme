@@ -20,10 +20,6 @@
     }
   },
 
-  "store.search.v2": {
-    "blocks": ["search-result-layout#search"]
-  },
-
   "store.search#department": {
     "blocks": ["search-result-layout"],
     "props": {
@@ -51,14 +47,6 @@
     }
   },
 
-  "search-result-layout#search": {
-    "blocks": [
-      "search-result-layout.desktop.enhanced",
-      "search-result-layout.mobile.enhanced",
-      "search-not-found-layout"
-    ]
-  },
-
   "search-result-layout": {
     "blocks": [
       "search-result-layout.desktop",
@@ -66,24 +54,7 @@
       "search-not-found-layout"
     ]
   },
-  "search-result-layout.desktop.enhanced": {
-    "children": [
-      "flex-layout.row#searchbread",
-      "flex-layout.row#searchtitle",
-      "flex-layout.row#didyoumean",
-      "flex-layout.row#suggestion",
-      "flex-layout.row#banner-one",
-      "flex-layout.row#result"
-    ],
-    "props": {
-      "pagination": "show-more",
-      "preventRouteChange": false,
-      "mobileLayout": {
-        "mode1": "small",
-        "mode2": "normal"
-      }
-    }
-  },
+
   "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#searchbread",
@@ -97,22 +68,6 @@
         "mode1": "small",
         "mode2": "normal"
       }
-    }
-  },
-  "flex-layout.row#didyoumean": {
-    "children": ["did-you-mean"]
-  },
-  "flex-layout.row#suggestion": {
-    "children": ["search-suggestions"]
-  },
-  "flex-layout.row#banner-one": {
-    "children": ["search-banner#one"]
-  },
-  "search-banner#one": {
-    "props": {
-      "area": "one",
-      "blockClass": "myBanner",
-      "horizontalAlignment": "center"
     }
   },
   "flex-layout.row#searchbread": {
@@ -184,25 +139,6 @@
     "blocks": ["gallery", "not-found"]
   },
 
-  "search-result-layout.mobile.enhanced": {
-    "children": [
-      "flex-layout.row#searchtitle",
-      "flex-layout.row#didyoumean",
-      "flex-layout.row#suggestion",
-      "flex-layout.row#banner-one",
-      "flex-layout.row#searchinfomobile",
-      "flex-layout.row#searchbread",
-      "flex-layout.row#productCountMobile",
-      "flex-layout.row#contentmobile"
-    ],
-    "props": {
-      "pagination": "show-more",
-      "mobileLayout": {
-        "mode1": "small",
-        "mode2": "normal"
-      }
-    }
-  },
   "search-result-layout.mobile": {
     "children": [
       "flex-layout.row#searchtitle",
