@@ -101,7 +101,8 @@
       "flex-layout.row#fetchmore"
     ],
     "props": {
-      "width": "grow"
+      "width": "grow",
+      "preventVerticalStretch": true
     }
   },
   "flex-layout.row#searchinfo": {
@@ -133,7 +134,10 @@
     "children": ["search-fetch-more"]
   },
   "flex-layout.row#products": {
-    "children": ["search-content"]
+    "children": ["search-content"],
+    "props": {
+      "preventVerticalStretch": true
+    }
   },
   "search-content": {
     "blocks": ["gallery", "not-found"]
