@@ -46,8 +46,28 @@
   "stack-layout#prodsum": {
     "children": [
       "product-summary-image",
+      "vtex.product-highlights@2.x:product-highlights#promotion",
       "product-summary-specification-badges"
     ]
+  },
+
+  "vtex.product-highlights@2.x:product-highlights#promotion": {
+    "props": {
+      "type": "promotion"
+    },
+    "children": ["product-highlight-wrapper"]
+  },
+
+  "product-highlight-wrapper": {
+    "props": {
+      "blockClass": "promotion"
+    },
+    "children": ["product-highlight-text"]
+  },
+  "product-highlight-text": {
+    "props": {
+      "message": "{highlightName}"
+    }
   },
 
   "product-summary-specification-badges": {
