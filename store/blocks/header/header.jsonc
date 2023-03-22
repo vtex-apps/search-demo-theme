@@ -51,6 +51,7 @@
       "header-spacer",
       "search-bar",
       "locale-switcher",
+      "shipping-options",
       "login",
       "minicart.v2"
     ],
@@ -82,6 +83,7 @@
       "drawer",
       "logo#mobile",
       "header-spacer",
+      "shipping-options",
       "login",
       "minicart.v2"
     ],

@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+- Shipping options component
+
 ## [1.1.0] - 2021-04-29
 
 ### Changed
