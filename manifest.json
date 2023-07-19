@@ -46,8 +46,7 @@
     "vtex.checkout-summary": "0.x",
     "vtex.product-list": "0.x",
     "vtex.add-to-cart-button": "0.x",
-    "vtex.search": "2.x",
-    "vtex.shipping-options": "0.x"
+    "vtex.search": "2.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
