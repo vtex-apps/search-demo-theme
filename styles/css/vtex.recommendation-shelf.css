@@ -1,0 +1,12 @@
+.shelfTitle {
+  color: #727273;
+  font-size: 36px;
+  font-weight: 300;
+  font-family: "San Francisco", -apple-system, "system-ui", "avenir next", avenir, "helvetica neue", helvetica, ubuntu, roboto, noto, "segoe ui", arial, sans-serif;
+}
+
+.shelfTitleContainer {
+  margin-bottom: 15px;
+  padding-bottom: 24px;
+  padding-top: 32px;
+}

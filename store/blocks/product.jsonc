@@ -4,7 +4,8 @@
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
       "flex-layout.row#description",
-      "shelf.relatedProducts",
+      "flex-layout.row#recommendation-similar-items",
+      // "flex-layout.row#recommendation-buy-together",
       "product-reviews",
       "product-questions-and-answers"
     ]
