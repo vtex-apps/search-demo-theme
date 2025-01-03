@@ -1,24 +1,20 @@
 .notificationBarContainer {
-  background-color: #E6F1E6;
-  color: #03034E;
+  background-color: #e6f1e6;
+  color: #03034e;
   font-weight: 700;
   font-size: 12px;
   text-decoration: underline;
 }
 
-.searchBarContainer {
-  max-width: 265px;
-}
-
 .infoCardContainer--info-card-home {
   max-width: 1520px;
   margin: 0 auto;
-  background-color: #E6F1E6;
+  background-color: #e6f1e6;
   padding: 0px;
 }
 
 .newsletter {
-  background-color: #03054E;
+  background-color: #03054e;
   max-width: 1528px;
   margin: 0 auto;
 }
@@ -73,27 +69,45 @@
   .newsletter .container {
     padding: 140px;
   }
-
   .label {
-    font-size: 40px;
+     font-size: 40px;
   }
-
   .infoCardContainer--info-card-home .infoCardTextContainer {
     width: 30%;
   }
-
   .infoCardContainer--info-card-home .infoCardImageContainer {
     width: 70%;
   }
-
   .imageElement--storePrint {
     margin-bottom: 0px;
     max-height: 600px;
   }
 }
 
-@media screen and (max-width: 428px) {
-  .searchBarContainer {
-    max-width: unset !important;
-  }
+.productImagesContainer--quickview .carouselContainer {
+  justify-content: flex-start;
+}
+
+.productImagesContainer--quickview .productImageTag {
+  object-fit: cover !important;
+}
+
+.productImagesContainer--quickview .carouselGaleryThumbs {
+  display: none;
+}
+
+.productImagesContainer--quickview .carouselGaleryCursor {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.productNameContainer {
+  color: #3f3f40;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.image {
+  image-rendering: -webkit-optimize-contrast;
 }
