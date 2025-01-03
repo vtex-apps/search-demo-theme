@@ -1,10 +1,4 @@
 {
-  // "flex-layout.row#recommendation-personalized": {
-  //   "children": ["recommendation-shelf#personalized"],
-  //   "props": {
-  //     "blockClass": "recommendation-shelf"
-  //   }
-  // },
   "flex-layout.row#recommendation-similar-items": {
     "children": ["recommendation-shelf#similar-items"],
     "props": {
@@ -15,30 +9,6 @@
       "paddingBottom": "4"
     }
   },
-  // "flex-layout.row#recommendation-buy-together": {
-  //   "children": ["recommendation-shelf#buy-together"],
-  //   "props": {
-  //     "paddingTop": "8",
-  //     "paddingRight": "4",
-  //     "paddingLeft": "4",
-  //     "paddingBottom": "4",
-  //     "blockClass": "recommendation-shelf"
-  //   }
-  // },
-  // "recommendation-shelf#personalized": {
-  //   "blocks": ["list-context.product-list-static"],
-  //   "props": {
-  //     "campaignId": "fPXpUPRtcPOy",
-  //     "title": "Recomendados para você"
-  //   }
-  // },
-  // "recommendation-shelf#buy-together": {
-  //   "blocks": ["list-context.product-list-static"],
-  //   "props": {
-  //     "campaignId": "ovHSLOQXvf0R",
-  //     "title": "Compre Junto"
-  //   }
-  // },
   "recommendation-shelf#similar-items": {
     "blocks": ["list-context.product-list-static"],
     "props": {
