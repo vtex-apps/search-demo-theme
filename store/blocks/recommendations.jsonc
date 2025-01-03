@@ -1,0 +1,37 @@
+{
+  "flex-layout.row#recommendation-similar-items": {
+    "children": ["recommendation-shelf#similar-items"],
+    "props": {
+      "paddingTop": "8",
+      "blockClass": "recommendation-shelf-similar-items",
+      "paddingRight": "4",
+      "paddingLeft": "4",
+      "paddingBottom": "4"
+    }
+  },
+  "recommendation-shelf#similar-items": {
+    "blocks": ["list-context.product-list-static"],
+    "props": {
+      "campaignId": "bEqliHEyIZLQ",
+      "title": "Produtos Similares"
+    }
+  },
+  "list-context.product-list-static": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#recommendation-slider"
+    ]
+  },
+  "slider-layout#recommendation-slider": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true
+    }
+  }
+}
