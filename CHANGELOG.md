@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.4.0] - 2025-01-03
+
 ### Changed
 
 - Rebased with the latest version of the `vtex.store-theme@5.x`.
