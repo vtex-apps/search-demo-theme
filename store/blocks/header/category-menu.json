@@ -1,5 +1,8 @@
 {
   "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
     "children": [
       "menu-item#category-apparel",
       "menu-item#category-home",
@@ -149,7 +152,8 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#about-us"
+      "menu-item#about-us",
+      "menu-item#faq"
     ]
   },
   "menu-item#about-us": {
@@ -164,6 +168,36 @@
         "noFollow": true,
         "tagTitle": "About us",
         "text": "About us"
+      }
+    }
+  },
+  "menu-item#faq": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "FAQ"
+      }
+    }
+  },
+  "menu-item#contact-us": {
+    "props": {
+      "id": "menu-item-contact-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": true,
+        "tagTitle": "Contact Us",
+        "text": "Contact Us"
       }
     }
   }
