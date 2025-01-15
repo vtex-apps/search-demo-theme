@@ -6,8 +6,8 @@
       "flex-layout.row#description",
       "flex-layout.row#specifications-title",
       "product-specification-group#table",
-      "shelf.relatedProducts",
       "flex-layout.row#recommendation-similar-items",
+      "flex-layout.row#recommendation-personalized",
       "product-reviews",
       "product-questions-and-answers"
     ]

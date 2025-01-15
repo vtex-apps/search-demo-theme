@@ -1,4 +1,5 @@
 {
+  // Similar items
   "flex-layout.row#recommendation-similar-items": {
     "children": ["recommendation-shelf#similar-items"],
     "props": {
@@ -14,6 +15,42 @@
     "props": {
       "campaignId": "bEqliHEyIZLQ",
       "title": "Produtos Similares"
+    }
+  },
+  // Top items
+  "flex-layout.row#recommendation-top-items": {
+    "children": ["recommendation-shelf#top-items"],
+    "props": {
+      "paddingTop": "8",
+      "blockClass": "recommendation-shelf-top-items",
+      "paddingRight": "4",
+      "paddingLeft": "4",
+      "paddingBottom": "4"
+    }
+  },
+  "recommendation-shelf#top-items": {
+    "blocks": ["list-context.product-list-static"],
+    "props": {
+      "campaignId": "GLlvGnMdiJKB",
+      "title": "Top Sellers"
+    }
+  },
+  // Personalized recommendations
+  "flex-layout.row#recommendation-personalized": {
+    "children": ["recommendation-shelf#personalized"],
+    "props": {
+      "paddingTop": "8",
+      "blockClass": "recommendation-shelf-personalized",
+      "paddingRight": "4",
+      "paddingLeft": "4",
+      "paddingBottom": "4"
+    }
+  },
+  "recommendation-shelf#personalized": {
+    "blocks": ["list-context.product-list-static"],
+    "props": {
+      "campaignId": "OflFGnfAYnKf",
+      "title": "Para você"
     }
   },
   "list-context.product-list-static": {
