@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+
+- Personalized recommendation to the product page.
+- Top items recommendation to the home page.
+
 ## [1.5.0] - 2025-01-03
 
 ### Added
