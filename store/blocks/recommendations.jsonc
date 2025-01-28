@@ -13,7 +13,7 @@
   "recommendation-shelf#similar-items": {
     "blocks": ["list-context.product-list-static"],
     "props": {
-      "campaignId": "bEqliHEyIZLQ",
+      "campaignVrn": "vrn:recommendations:biggy:rec-similar-v1:bEqliHEyIZLQ",
       "title": "Produtos Similares"
     }
   },
@@ -31,7 +31,7 @@
   "recommendation-shelf#top-items": {
     "blocks": ["list-context.product-list-static"],
     "props": {
-      "campaignId": "GLlvGnMdiJKB",
+      "campaignVrn": "vrn:recommendations:biggy:rec-top-items-v1:GLlvGnMdiJKB",
       "title": "Top Sellers"
     }
   },
@@ -49,7 +49,7 @@
   "recommendation-shelf#personalized": {
     "blocks": ["list-context.product-list-static"],
     "props": {
-      "campaignId": "OflFGnfAYnKf",
+      "campaignVrn": "vrn:recommendations:biggy:rec-persona-v1:OflFGnfAYnKf",
       "title": "Para você"
     }
   },
