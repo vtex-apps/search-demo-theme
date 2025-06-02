@@ -7,7 +7,7 @@
       "flex-layout.row#specifications-title",
       "product-specification-group#table",
       "flex-layout.row#recommendation-similar-items",
-      "flex-layout.row#recommendation-personalized",
+      "flex-layout.row#recommendation-cross-sell",
       "product-reviews",
       "product-questions-and-answers"
     ]
