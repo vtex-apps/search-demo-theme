@@ -13,8 +13,26 @@
   "recommendation-shelf#similar-items": {
     "blocks": ["list-context.product-list-static"],
     "props": {
-      "campaignVrn": "vrn:recommendations:biggy:rec-similar-v1:bEqliHEyIZLQ",
+      "campaignVrn": "vrn:recommendations:biggy:rec-similar-v2:5c35b9cc-09f8-45b4-a132-3b92813cfdab",
       "title": "Produtos Similares"
+    }
+  },
+   // Cross-sell
+  "flex-layout.row#recommendation-cross-sell": {
+    "children": ["recommendation-shelf#cross-sell"],
+    "props": {
+      "paddingTop": "8",
+      "blockClass": "recommendation-shelf-cros-sell",
+      "paddingRight": "4",
+      "paddingLeft": "4",
+      "paddingBottom": "4"
+    }
+  },
+  "recommendation-shelf#cross-sell": {
+    "blocks": ["list-context.product-list-static"],
+    "props": {
+      "campaignVrn": "vrn:recommendations:biggy:rec-cross-v2:0dc59f19-ebc4-4c2b-bc42-41d39745ea5e",
+      "title": "Produtos Complementares"
     }
   },
   // Top items
@@ -31,7 +49,7 @@
   "recommendation-shelf#top-items": {
     "blocks": ["list-context.product-list-static"],
     "props": {
-      "campaignVrn": "vrn:recommendations:biggy:rec-top-items-v1:GLlvGnMdiJKB",
+      "campaignVrn": "vrn:recommendations:biggy:rec-top-items-v2:381736a8-afe8-4845-a9e0-4f496bd73a98",
       "title": "Top Sellers"
     }
   },
@@ -49,8 +67,26 @@
   "recommendation-shelf#personalized": {
     "blocks": ["list-context.product-list-static"],
     "props": {
-      "campaignVrn": "vrn:recommendations:biggy:rec-persona-v1:OflFGnfAYnKf",
+      "campaignVrn": "vrn:recommendations:biggy:rec-persona-v2:ceb43d06-5b85-4690-b4ee-021963ddfc19",
       "title": "Para você"
+    }
+  },
+  // Last seen
+  "flex-layout.row#recommendation-last-seen": {
+    "children": ["recommendation-shelf#last-seen"],
+    "props": {
+      "paddingTop": "8",
+      "blockClass": "recommendation-shelf-last-seen",
+      "paddingRight": "4",
+      "paddingLeft": "4",
+      "paddingBottom": "4"
+    }
+  },
+  "recommendation-shelf#last-seen": {
+    "blocks": ["list-context.product-list-static"],
+    "props": {
+      "campaignVrn": "vrn:recommendations:biggy:rec-last-v2:69a28297-ac8f-408c-bcc4-d8d7e3687b23",
+      "title": "Últimos vistos"
     }
   },
   "list-context.product-list-static": {
