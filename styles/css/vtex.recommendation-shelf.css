@@ -11,6 +11,15 @@
   padding-top: 2rem; /* 32px */
 }
 
+.recommendationShelfContainer--recommendation-shelf-top-items {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.recommendationShelfContainer {
+  margin-bottom: 2.5rem;
+}
+
 @media (max-width: 768px) {
   .shelfTitle {
     font-size: 1.5rem; /* 24px */
