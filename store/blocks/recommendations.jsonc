@@ -1,122 +1,177 @@
 {
   // Similar items
   "flex-layout.row#recommendation-similar-items": {
-    "children": ["recommendation-shelf#similar-items"],
-    "props": {
-      "paddingTop": "8",
-      "blockClass": "recommendation-shelf-similar-items",
-      "paddingRight": "4",
-      "paddingLeft": "4",
-      "paddingBottom": "4"
-    }
+    "children": ["recommendation-shelf#similar-items"]
   },
   "recommendation-shelf#similar-items": {
-    "blocks": ["list-context.product-list-static"],
+    "blocks": ["list-context.product-list-static#recommendations"],
     "props": {
-      "recommendationType": "SIMILAR_ITEMS",
-      "title": "Produtos Similares"
+      "campaignVrn": "vrn:recommendations:biggy:rec-similar-v2:e4921585-fc36-4ac8-9412-fc0453266279",
+      "title": "Similar items",
+      "blockClass": "recommendation-shelf-similar-items"
     }
   },
-   // Cross-sell
+  // Cross-sell
   "flex-layout.row#recommendation-cross-sell": {
-    "children": ["recommendation-shelf#cross-sell"],
-    "props": {
-      "paddingTop": "8",
-      "blockClass": "recommendation-shelf-cros-sell",
-      "paddingRight": "4",
-      "paddingLeft": "4",
-      "paddingBottom": "4"
-    }
+    "children": ["recommendation-shelf#cross-sell"]
   },
   "recommendation-shelf#cross-sell": {
-    "blocks": ["list-context.product-list-static"],
+    "blocks": ["list-context.product-list-static#recommendations"],
     "props": {
-      "recommendationType": "CROSS_SELL",
-      "title": "Produtos Complementares"
+      "campaignVrn": "vrn:recommendations:biggy:rec-cross-v2:f52ca3c2-987f-4b77-b505-53a188a2c265",
+      "title": "Buy together",
+      "blockClass": "recommendation-shelf-cross-sell"
     }
   },
   // Top items
   "flex-layout.row#recommendation-top-items": {
-    "children": ["recommendation-shelf#top-items"],
-    "props": {
-      "paddingTop": "8",
-      "blockClass": "recommendation-shelf-top-items",
-      "paddingRight": "4",
-      "paddingLeft": "4",
-      "paddingBottom": "4"
-    }
+    "children": ["recommendation-shelf#top-items"]
   },
   "recommendation-shelf#top-items": {
-    "blocks": ["list-context.product-list-static"],
+    "blocks": ["list-context.product-list-static#recommendations"],
     "props": {
-      "recommendationType": "TOP_ITEMS",
-      "title": "Top Sellers"
+      "campaignVrn": "vrn:recommendations:biggy:rec-top-items-v2:6813c39c-2692-4cfa-b51e-9296f4e1dcac",
+      "title": "Best Sellers",
+      "blockClass": "recommendation-shelf-top-items",
+      "displayTitle": false
     }
   },
   // Personalized recommendations
   "flex-layout.row#recommendation-personalized": {
-    "children": ["recommendation-shelf#personalized"],
-    "props": {
-      "paddingTop": "8",
-      "blockClass": "recommendation-shelf-personalized",
-      "paddingRight": "4",
-      "paddingLeft": "4",
-      "paddingBottom": "4"
-    }
+    "children": ["recommendation-shelf#personalized"]
+  },
+  "flex-layout.row#recommendation-personalized-with-title": {
+    "children": ["recommendation-shelf#personalized-with-title"]
   },
   "recommendation-shelf#personalized": {
-    "blocks": ["list-context.product-list-static"],
+    "blocks": ["list-context.product-list-static#recommendations"],
     "props": {
-      "recommendationType": "PERSONALIZED",
-      "title": "Para você"
+      "campaignVrn": "vrn:recommendations:biggy:rec-persona-v2:c1fda23b-24d4-44f1-9cf8-e1d04bf64e75",
+      "blockClass": "recommendation-shelf-personalized",
+      "displayTitle": false
+    }
+  },
+  "recommendation-shelf#personalized-with-title": {
+    "blocks": ["list-context.product-list-static#recommendations"],
+    "props": {
+      "campaignVrn": "vrn:recommendations:biggy:rec-persona-v2:c1fda23b-24d4-44f1-9cf8-e1d04bf64e75",
+      "blockClass": "recommendation-shelf-personalized"
     }
   },
   // Last seen
   "flex-layout.row#recommendation-last-seen": {
-    "children": ["recommendation-shelf#last-seen"],
-    "props": {
-      "paddingTop": "8",
-      "blockClass": "recommendation-shelf-last-seen",
-      "paddingRight": "4",
-      "paddingLeft": "4",
-      "paddingBottom": "4"
-    }
+    "children": ["recommendation-shelf#last-seen"]
   },
   "recommendation-shelf#last-seen": {
-    "blocks": ["list-context.product-list-static"],
+    "blocks": ["list-context.product-list-static#recommendations"],
     "props": {
-      "recommendationType": "LAST_SEEN",
-      "title": "Últimos vistos"
+      "campaignVrn": "vrn:recommendations:biggy:rec-last-v2:dce02c98-6a8a-49d8-a4fa-018f0731b9a3",
+      "blockClass": "recommendation-shelf-last-seen",
+      "title": "Continue shopping"
+    }
+  },
+  // Search Based Best discounts
+  "flex-layout.row#recommendation-best-discounts": {
+    "children": ["recommendation-shelf#best-discounts"]
+  },
+  "recommendation-shelf#best-discounts": {
+    "blocks": ["list-context.product-list-static#recommendations"],
+    "props": {
+      "campaignVrn": "vrn:recommendations:biggy:rec-search-v2:a9bb0dd4-ecf4-4ac4-9139-c890e0e48831",
+      "blockClass": "recommendation-shelf-best-discounts",
+      "displayTitle": false
     }
   },
   // Visual Similarity
-  "flex-layout.row#recommendation-visual-similarity": {
-    "children": ["recommendation-shelf#visual-similarity"],
+  // "flex-layout.row#recommendation-visual-similarity": {
+  //   "children": ["recommendation-shelf#visual-similarity"]
+  // },
+  // "recommendation-shelf#visual-similarity": {
+  //   "blocks": ["list-context.product-list-static"],
+  //   "props": {
+  //     "recommendationType": "VISUAL_SIMILARITY",
+  //     "title": "Itens Similares"
+  //   }
+  // },
+  // Personalized Tab
+  "flex-layout.row#home-tab": {
+    "children": ["tab-layout#home"]
+  },
+  "tab-layout#home": {
+    "children": ["tab-list#home", "tab-content#home"],
     "props": {
-      "paddingTop": "8",
-      "blockClass": "recommendation-shelf-visual-similarity",
-      "paddingRight": "4",
-      "paddingLeft": "4",
-      "paddingBottom": "4"
+      "blockClass": "home-tab-layout",
+      "defaultActiveTabId": "personalized"
     }
   },
-  "recommendation-shelf#visual-similarity": {
-    "blocks": ["list-context.product-list-static"],
-    "props": {
-      "recommendationType": "VISUAL_SIMILARITY",
-      "title": "Itens Similares"
-    }
-  },
-  "list-context.product-list-static": {
-    "blocks": [
-      "product-summary.shelf"
-    ],
+  "tab-list#home": {
     "children": [
-      "slider-layout#recommendation-slider"
-    ]
+      "tab-list.item#personalized",
+      "tab-list.item#best-sellers",
+      "tab-list.item#best-discounts"
+    ],
+    "props": {
+      "blockClass": "home-tab-layout"
+    }
+  },
+  "tab-content#home": {
+    "children": [
+      "tab-content.item#personalized",
+      "tab-content.item#best-sellers",
+      "tab-content.item#best-discounts"
+    ],
+    "props": {
+      "blockClass": "home-tab-layout"
+    }
+  },
+  "tab-list.item#personalized": {
+    "props": {
+      "tabId": "personalized",
+      "label": "For you",
+      "defaultActiveTab": true,
+      "blockClass": "home-tab-layout-item"
+    }
+  },
+  "tab-list.item#best-discounts": {
+    "props": {
+      "tabId": "best-discounts",
+      "label": "Best Discounts",
+      "blockClass": "home-tab-layout-item"
+    }
+  },
+  "tab-list.item#best-sellers": {
+    "props": {
+      "tabId": "best-sellers",
+      "label": "Best Sellers",
+      "blockClass": "home-tab-layout-item"
+    }
+  },
+  "tab-content.item#personalized": {
+    "children": ["flex-layout.row#recommendation-personalized"],
+    "props": {
+      "tabId": "personalized"
+    }
+  },
+  "tab-content.item#best-discounts": {
+    "children": ["flex-layout.row#recommendation-best-discounts"],
+    "props": {
+      "tabId": "best-discounts"
+    }
+  },
+  "tab-content.item#best-sellers": {
+    "children": ["flex-layout.row#recommendation-top-items"],
+    "props": {
+      "tabId": "best-sellers"
+    }
+  },
+  // Commons
+  "list-context.product-list-static#recommendations": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#recommendation-slider"]
   },
   "slider-layout#recommendation-slider": {
     "props": {
+      "blockClass": "vtex-recommendation-shelf-slider",
       "itemsPerPage": {
         "desktop": 5,
         "tablet": 3,
