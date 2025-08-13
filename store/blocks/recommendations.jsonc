@@ -56,6 +56,18 @@
     "props": {
       "campaignVrn": "vrn:recommendations:biggy:rec-last-v2:dce02c98-6a8a-49d8-a4fa-018f0731b9a3",
       "blockClass": "recommendation-shelf-last-seen",
+      "title": "Continue shopping"
+    }
+  },
+  // Search Based Best discounts
+  "flex-layout.row#recommendation-best-discounts": {
+    "children": ["recommendation-shelf#best-discounts"]
+  },
+  "recommendation-shelf#best-discounts": {
+    "blocks": ["list-context.product-list-static#recommendations"],
+    "props": {
+      "campaignVrn": "vrn:recommendations:biggy:rec-search-v2:a9bb0dd4-ecf4-4ac4-9139-c890e0e48831",
+      "blockClass": "recommendation-shelf-best-discounts",
       "displayTitle": false
     }
   },
@@ -70,6 +82,60 @@
   //     "title": "Itens Similares"
   //   }
   // },
+  // Personalized Tab
+  "flex-layout.row#home-tab": {
+    "children": ["tab-layout#home"]
+  },
+  "tab-layout#home": {
+    "children": ["tab-list#home", "tab-content#home"],
+    "props": {
+      "blockClass": "home-tab-layout",
+      "defaultActiveTabId": "personalized"
+    }
+  },
+  "tab-list#home": {
+    "children": ["tab-list.item#personalized", "tab-list.item#best-discounts"],
+    "props": {
+      "blockClass": "home-tab-layout"
+    }
+  },
+  "tab-content#home": {
+    "children": [
+      "tab-content.item#personalized",
+      "tab-content.item#best-discounts"
+    ],
+    "props": {
+      "blockClass": "home-tab-layout"
+    }
+  },
+  "tab-list.item#personalized": {
+    "props": {
+      "tabId": "personalized",
+      "label": "For you",
+      "defaultActiveTab": true,
+      "blockClass": "home-tab-layout-item"
+    }
+  },
+  "tab-list.item#best-discounts": {
+    "props": {
+      "tabId": "best-discounts",
+      "label": "Best Discounts",
+      "blockClass": "home-tab-layout-item"
+    }
+  },
+  "tab-content.item#personalized": {
+    "children": ["flex-layout.row#recommendation-personalized"],
+    "props": {
+      "tabId": "personalized"
+    }
+  },
+  "tab-content.item#best-discounts": {
+    "children": ["flex-layout.row#recommendation-best-discounts"],
+    "props": {
+      "tabId": "best-discounts"
+    }
+  },
+  // Commons
   "list-context.product-list-static#recommendations": {
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#recommendation-slider"]
