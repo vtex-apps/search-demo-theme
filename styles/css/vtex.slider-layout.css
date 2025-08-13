@@ -29,3 +29,7 @@
   padding-right: .5rem;
   min-height: 550px;
 }
+
+.sliderTrack--vtex-recommendation-shelf-slider{
+  gap: 3rem;
+}
