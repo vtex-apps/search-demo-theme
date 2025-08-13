@@ -3,11 +3,11 @@
     "children": [
       "flex-layout.row#product-breadcrumb",
       "condition-layout.product#availability",
+      "flex-layout.row#recommendation-cross-sell",
+      "flex-layout.row#recommendation-similar-items",
       "flex-layout.row#description",
       "flex-layout.row#specifications-title",
       "product-specification-group#table",
-      "flex-layout.row#recommendation-similar-items",
-      "flex-layout.row#recommendation-cross-sell",
       "product-reviews",
       "product-questions-and-answers"
     ]
