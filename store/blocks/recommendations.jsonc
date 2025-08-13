@@ -32,7 +32,8 @@
     "props": {
       "campaignVrn": "vrn:recommendations:biggy:rec-top-items-v2:6813c39c-2692-4cfa-b51e-9296f4e1dcac",
       "title": "Best Sellers",
-      "blockClass": "recommendation-shelf-top-items"
+      "blockClass": "recommendation-shelf-top-items",
+      "displayTitle": false
     }
   },
   // Personalized recommendations
@@ -94,7 +95,7 @@
     }
   },
   "tab-list#home": {
-    "children": ["tab-list.item#personalized", "tab-list.item#best-discounts"],
+    "children": ["tab-list.item#personalized","tab-list.item#best-sellers", "tab-list.item#best-discounts"],
     "props": {
       "blockClass": "home-tab-layout"
     }
@@ -102,6 +103,7 @@
   "tab-content#home": {
     "children": [
       "tab-content.item#personalized",
+      "tab-content.item#best-sellers",
       "tab-content.item#best-discounts"
     ],
     "props": {
@@ -123,6 +125,13 @@
       "blockClass": "home-tab-layout-item"
     }
   },
+  "tab-list.item#best-sellers": {
+    "props": {
+      "tabId": "best-sellers",
+      "label": "Best Sellers",
+      "blockClass": "home-tab-layout-item"
+    }
+  },
   "tab-content.item#personalized": {
     "children": ["flex-layout.row#recommendation-personalized"],
     "props": {
@@ -133,6 +142,12 @@
     "children": ["flex-layout.row#recommendation-best-discounts"],
     "props": {
       "tabId": "best-discounts"
+    }
+  },
+  "tab-content.item#best-sellers": {
+    "children": ["flex-layout.row#recommendation-top-items"],
+    "props": {
+      "tabId": "best-sellers"
     }
   },
   // Commons
