@@ -40,12 +40,22 @@
   "flex-layout.row#recommendation-personalized": {
     "children": ["recommendation-shelf#personalized"]
   },
+  "flex-layout.row#recommendation-personalized-with-title": {
+    "children": ["recommendation-shelf#personalized-with-title"]
+  },
   "recommendation-shelf#personalized": {
     "blocks": ["list-context.product-list-static#recommendations"],
     "props": {
       "campaignVrn": "vrn:recommendations:biggy:rec-persona-v2:c1fda23b-24d4-44f1-9cf8-e1d04bf64e75",
       "blockClass": "recommendation-shelf-personalized",
       "displayTitle": false
+    }
+  },
+  "recommendation-shelf#personalized-with-title": {
+    "blocks": ["list-context.product-list-static#recommendations"],
+    "props": {
+      "campaignVrn": "vrn:recommendations:biggy:rec-persona-v2:c1fda23b-24d4-44f1-9cf8-e1d04bf64e75",
+      "blockClass": "recommendation-shelf-personalized"
     }
   },
   // Last seen
@@ -95,7 +105,11 @@
     }
   },
   "tab-list#home": {
-    "children": ["tab-list.item#personalized","tab-list.item#best-sellers", "tab-list.item#best-discounts"],
+    "children": [
+      "tab-list.item#personalized",
+      "tab-list.item#best-sellers",
+      "tab-list.item#best-discounts"
+    ],
     "props": {
       "blockClass": "home-tab-layout"
     }
