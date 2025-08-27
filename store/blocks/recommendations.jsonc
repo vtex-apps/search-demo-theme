@@ -6,7 +6,7 @@
   "recommendation-shelf#cart": {
     "blocks": ["list-context.product-list-static#recommendations-cart"],
     "props": {
-      "campaignVrn": "vrn:recommendations:biggy:rec-top-items-v2:6813c39c-2692-4cfa-b51e-9296f4e1dcac",
+      "campaignVrn": "vrn:recommendations:biggy:rec-cross-v2:470e8756-1444-46ce-934f-907a30cbf870",
       "title": "Buy together",
       "blockClass": "recommendation-shelf-cross-sell-cart"
     }
