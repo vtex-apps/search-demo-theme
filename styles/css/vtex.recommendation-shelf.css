@@ -9,6 +9,11 @@
   margin-bottom: 1rem; /* 15px */
 }
 
+.recommendationShelfContainer.recommendationShelfContainer--recommendation-shelf-cross-sell-cart {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
 .recommendationShelfContainer--recommendation-shelf-top-items {
   margin-top: 2rem;
   margin-bottom: 2rem;

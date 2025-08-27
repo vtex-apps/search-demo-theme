@@ -35,6 +35,10 @@
     "blocks": ["product-review-form"]
   },
 
+  "store.custom#recommendation-shelf-cart": {
+    "blocks": ["flex-layout.row#recommendation-cart"]
+  },
+
   "store.not-found#product": {
     "blocks": ["rich-text#not-found"]
   },
