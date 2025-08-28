@@ -1,4 +1,16 @@
 {
+  // Cart Shelf
+  "flex-layout.row#recommendation-cart": {
+    "children": ["recommendation-shelf#cart"]
+  },
+  "recommendation-shelf#cart": {
+    "blocks": ["list-context.product-list-static#recommendations-cart"],
+    "props": {
+      "campaignVrn": "vrn:recommendations:biggy:rec-cross-v2:470e8756-1444-46ce-934f-907a30cbf870",
+      "title": "Buy together",
+      "blockClass": "recommendation-shelf-cross-sell-cart"
+    }
+  },
   // Similar items
   "flex-layout.row#recommendation-similar-items": {
     "children": ["recommendation-shelf#similar-items"]
@@ -165,6 +177,22 @@
     }
   },
   // Commons
+  "product-summary.shelf#recommendation-cart": {
+    "children": [
+      "stack-layout#prodsum",
+      "product-summary-name",
+      "flex-layout.col#productRating",
+      "product-summary-space",
+      "product-list-price#summary",
+      "flex-layout.row#selling-price-savings",
+      "product-installments#summary",
+      "add-to-cart-button#buyNow"
+    ]
+  },
+  "list-context.product-list-static#recommendations-cart": {
+    "blocks": ["product-summary.shelf#recommendation-cart"],
+    "children": ["slider-layout#recommendation-slider"]
+  },
   "list-context.product-list-static#recommendations": {
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#recommendation-slider"]
