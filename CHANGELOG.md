@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.11.0] - 2025-08-28
+
 ## [1.10.0] - 2025-08-13
 
 ## [1.9.0] - 2025-06-20
@@ -770,3 +772,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Deprecated
 
 - Remove the own implementation of shelf to add the app.
+
+
+[Unreleased]: https://github.com/vtex-apps/search-demo-theme/compare/v1.11.0...HEAD
+[1.11.0]: https://github.com/vtex-apps/search-demo-theme/compare/v1.10.0...v1.11.0
