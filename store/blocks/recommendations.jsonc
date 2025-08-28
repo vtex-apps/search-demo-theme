@@ -8,7 +8,8 @@
     "props": {
       "campaignVrn": "vrn:recommendations:biggy:rec-cross-v2:470e8756-1444-46ce-934f-907a30cbf870",
       "title": "Buy together",
-      "blockClass": "recommendation-shelf-cross-sell-cart"
+      "blockClass": "recommendation-shelf-cross-sell-cart",
+      "itemsContext": ["CART"]
     }
   },
   // Similar items
