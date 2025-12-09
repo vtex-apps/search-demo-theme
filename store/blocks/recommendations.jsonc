@@ -6,8 +6,7 @@
   "recommendation-shelf#cart": {
     "blocks": ["list-context.product-list-static#recommendations-cart"],
     "props": {
-      "campaignVrn": "vrn:recommendations:biggy:rec-cross-v2:470e8756-1444-46ce-934f-907a30cbf870",
-      "title": "Buy together",
+      "campaignVrn": "vrn:recommendations:biggy:rec-cross-v2:1ac9593d-f96a-4929-9d96-af60897e6cc1",
       "blockClass": "recommendation-shelf-cross-sell-cart",
       "itemsContext": ["CART"]
     }
@@ -19,8 +18,7 @@
   "recommendation-shelf#similar-items": {
     "blocks": ["list-context.product-list-static#recommendations"],
     "props": {
-      "campaignVrn": "vrn:recommendations:biggy:rec-similar-v2:e4921585-fc36-4ac8-9412-fc0453266279",
-      "title": "Similar items",
+      "campaignVrn": "vrn:recommendations:biggy:rec-similar-v2:26d53537-065d-4fff-92ac-1aeba049b33d",
       "blockClass": "recommendation-shelf-similar-items"
     }
   },
@@ -31,8 +29,7 @@
   "recommendation-shelf#cross-sell": {
     "blocks": ["list-context.product-list-static#recommendations"],
     "props": {
-      "campaignVrn": "vrn:recommendations:biggy:rec-cross-v2:f52ca3c2-987f-4b77-b505-53a188a2c265",
-      "title": "Buy together",
+      "campaignVrn": "vrn:recommendations:biggy:rec-cross-v2:ca2acae8-41a4-4bcd-9ffd-0ac40b7c0a57",
       "blockClass": "recommendation-shelf-cross-sell"
     }
   },
@@ -43,8 +40,7 @@
   "recommendation-shelf#top-items": {
     "blocks": ["list-context.product-list-static#recommendations"],
     "props": {
-      "campaignVrn": "vrn:recommendations:biggy:rec-top-items-v2:6813c39c-2692-4cfa-b51e-9296f4e1dcac",
-      "title": "Best Sellers",
+      "campaignVrn": "vrn:recommendations:biggy:rec-top-items-v2:2860bc12-c343-4f1c-9006-ab1184fa4ca3",
       "blockClass": "recommendation-shelf-top-items",
       "displayTitle": false
     }
@@ -59,7 +55,7 @@
   "recommendation-shelf#personalized": {
     "blocks": ["list-context.product-list-static#recommendations"],
     "props": {
-      "campaignVrn": "vrn:recommendations:biggy:rec-persona-v2:c1fda23b-24d4-44f1-9cf8-e1d04bf64e75",
+      "campaignVrn": "vrn:recommendations:biggy:rec-persona-v2:ebc2cdc4-b610-4ea1-88f1-b34908daf7cb",
       "blockClass": "recommendation-shelf-personalized",
       "displayTitle": false
     }
@@ -67,7 +63,7 @@
   "recommendation-shelf#personalized-with-title": {
     "blocks": ["list-context.product-list-static#recommendations"],
     "props": {
-      "campaignVrn": "vrn:recommendations:biggy:rec-persona-v2:c1fda23b-24d4-44f1-9cf8-e1d04bf64e75",
+      "campaignVrn": "vrn:recommendations:biggy:rec-persona-v2:ebc2cdc4-b610-4ea1-88f1-b34908daf7cb",
       "blockClass": "recommendation-shelf-personalized"
     }
   },
@@ -78,7 +74,7 @@
   "recommendation-shelf#last-seen": {
     "blocks": ["list-context.product-list-static#recommendations"],
     "props": {
-      "campaignVrn": "vrn:recommendations:biggy:rec-last-v2:dce02c98-6a8a-49d8-a4fa-018f0731b9a3",
+      "campaignVrn": "vrn:recommendations:biggy:rec-last-v2:fad5f2b7-24be-469e-8ccb-0b1e98faec6a",
       "blockClass": "recommendation-shelf-last-seen",
       "title": "Continue shopping"
     }
@@ -90,22 +86,11 @@
   "recommendation-shelf#best-discounts": {
     "blocks": ["list-context.product-list-static#recommendations"],
     "props": {
-      "campaignVrn": "vrn:recommendations:biggy:rec-search-v2:a9bb0dd4-ecf4-4ac4-9139-c890e0e48831",
+      "campaignVrn": "vrn:recommendations:biggy:rec-search-v2:217c0e34-96e9-44fc-8e1a-2459399779e7",
       "blockClass": "recommendation-shelf-best-discounts",
       "displayTitle": false
     }
   },
-  // Visual Similarity
-  // "flex-layout.row#recommendation-visual-similarity": {
-  //   "children": ["recommendation-shelf#visual-similarity"]
-  // },
-  // "recommendation-shelf#visual-similarity": {
-  //   "blocks": ["list-context.product-list-static"],
-  //   "props": {
-  //     "recommendationType": "VISUAL_SIMILARITY",
-  //     "title": "Itens Similares"
-  //   }
-  // },
   // Personalized Tab
   "flex-layout.row#home-tab": {
     "children": ["tab-layout#home"]
