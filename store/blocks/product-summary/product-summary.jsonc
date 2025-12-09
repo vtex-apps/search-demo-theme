@@ -30,7 +30,12 @@
     "props": {
       "showBadge": false,
       "aspectRatio": "1:1",
-      "maxHeight": 300
+      "maxHeight": 300,
+      "hoverImageLabel": "hover",
+      "fetchpriority": "high",
+      "hoverImage": {
+        "index": 2
+      }
     }
   },
 
@@ -81,9 +86,7 @@
   },
   "product-price-savings#summary": {
     "props": {
-      "markers": [
-        "discount"
-      ],
+      "markers": ["discount"],
       "blockClass": "summary"
     }
   }
