@@ -1,7 +1,7 @@
 {
   "vendor": "biggy",
   "name": "store-theme",
-  "version": "1.11.1",
+  "version": "1.12.0",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
