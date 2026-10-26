@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.13.0] - 2026-10-26
+
+### Added
+
+- Added a compact recommendation minishelf to minicart content.
+
+### Changed
+
+- Removed the custom route and block used by the old embedded cart shelf.
+- Moved cart recommendations to render directly inside the minicart flow.
+
 ## [1.12.0] - 2025-12-09
 ### Changed
 
