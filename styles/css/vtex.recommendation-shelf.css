@@ -5,19 +5,6 @@
   font-family: "San Francisco", -apple-system, "system-ui", "avenir next", avenir, "helvetica neue", helvetica, ubuntu, roboto, noto, "segoe ui", arial, sans-serif;
 }
 
-.shelfTitleContainer {
-  margin-bottom: 1rem; /* 15px */
-}
-
-.recommendationShelfContainer.recommendationShelfContainer--recommendation-shelf-cross-sell-cart {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
-}
-
-.recommendationShelfContainer {
-  margin-bottom: 2.5rem;
-}
-
 @media (max-width: 768px) {
   .shelfTitle {
     font-size: 1.5rem; /* 24px */

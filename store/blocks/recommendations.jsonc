@@ -1,5 +1,5 @@
 {
-  // Cart Shelf
+  // Mini Cart Shelf
   "flex-layout.row#recommendation-cart": {
     "children": ["recommendation-shelf#cart"]
   },
@@ -8,6 +8,15 @@
     "props": {
       "campaignVrn": "vrn:recommendations:biggy:rec-cross-v2:1ac9593d-f96a-4929-9d96-af60897e6cc1",
       "blockClass": "recommendation-shelf-cross-sell-cart",
+      "itemsContext": ["CART"]
+    }
+  },
+  // Mini Cart MiniShelf (compact, collapsible)
+  "recommendation-mini-shelf#minicart": {
+    "blocks": ["product-summary.shelf#rec-mini-shelf"],
+    "children": ["slider-layout#rec-mini-shelf"],
+    "props": {
+      "campaignVrn": "vrn:recommendations:biggy:rec-cross-v2:fb77b4d1-6383-48f7-be88-5f921eead61a",
       "itemsContext": ["CART"]
     }
   },
